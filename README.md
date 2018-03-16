@@ -1,2 +1,0 @@
-# AngularRefresher
-Created with CodeSandbox
