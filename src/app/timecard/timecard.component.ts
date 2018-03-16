@@ -18,8 +18,8 @@ export class TimeCardComponent implements OnInit {
     this._employeeService= employeeService;
   }
 
-  //ee = '44';
-  ee: Employee;
+  
+   ee: Employee;
 
   ngOnInit() {
     this.ee = this._employeeService.GetEmployee();
