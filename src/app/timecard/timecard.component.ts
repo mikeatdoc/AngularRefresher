@@ -2,7 +2,7 @@ import { Component, OnInit } from "@angular/core";
 
 import { EmployeeService } from "../services/employee.service";
 
-
+import { Employee } from '../shared/employee';
 
 
 @Component({
@@ -18,7 +18,8 @@ export class TimeCardComponent implements OnInit {
     this._employeeService= employeeService;
   }
 
-  ee = '44';
+  //ee = '44';
+  ee: Employee;
 
   ngOnInit() {
     this.ee = this._employeeService.GetEmployee();
