@@ -9,7 +9,8 @@ export class EmployeeService {
 GetEmployee2() : number {
   return 343;
 }
- GetEmployee() : Employee {
+
+GetEmployee() : Employee {
     let e = new Employee();
 
    e.FirstName = "bob";
