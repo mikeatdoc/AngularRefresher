@@ -6,17 +6,17 @@ export class EmployeeService {
 
   constructor() { }
 
-GetEmployee2() : number {
-  return 343;
-}
+  GetEmployee2() : number {
+    return 343;
+  }
 
-GetEmployee() : Employee {
+  GetEmployee() : Employee {
     let e = new Employee();
 
-   e.FirstName = "bob";
-   e.LastName = "barker";
+    e.FirstName = "bob";
+    e.LastName = "barkers";
 
-   return e;
-   }
+    return e;
+  }
 
 }
